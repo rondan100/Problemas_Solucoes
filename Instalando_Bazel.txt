@@ -1,0 +1,11 @@
+Bazel é uma base para rodar o tensorflow no VSCode. Estou utilizando Anaconda.
+
+1) Download the Bazel binary (bazel-<version>-windows-x86_64.exe) from GitHub
+https://github.com/bazelbuild/bazel/releases
+
+2) Adicionar uma variável de ambiente na pasta onde o arquivo bazel está
+-renomeei o arquivo para bazel.exe 
+-fui em variaveis de ambiente do sistema e adicionei a pasta do local desse arquivo
+
+3)Checar
+-Abri o cmd e digitei "bazel version" e aparentemente foi instalado
