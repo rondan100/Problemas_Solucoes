@@ -1,0 +1,15 @@
+MSYS2 é outro ambiente necessário (além do bazel) para o tensorflow, segundo https://www.tensorflow.org/install/source_windows
+
+1) Baixar em https://www.msys2.org/
+
+2) Instalar e selecionar a pasta de instalação
+-Escolhi o F:\
+
+3) Rodar e aplicar "pacman -Syu"
+
+4) Abrir o cmd.exe 
+- Executar "pacman -S git patch unzip"
+-[no caso abriu com destino c:\Users\PC] e parece q não interferiu no destino em F:\, onde instalei, pois o tamanho da pasta em F:\ passou de 328 para ~800Mb,
+o que indica que o cmd encontrou o destino correto da instalação dos pacotes.
+
+
