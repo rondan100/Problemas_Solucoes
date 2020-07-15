@@ -1,0 +1,8 @@
+Para rodar o tensorflow no Jupyter Notebook, foi preciso abrir o Anaconda Navigator e selecionar
+a aba Envirioments e clicar na opção do ambiente onde foi instalado o tensorflow. Assim, parece que o ambiente 
+é ativado. Em seguida, no próprio Anaconda Navigator, abrir o Jupyter Notebook e o tensorflow ja deve estar funcionando.
+Pode fechar o Anaconda Navigator que, aparentemente (não sei se tem algo a ver com atualização do jupyter), o tensorflow
+continuou funcionando no Jupyter.
+
+Assim, poderá ser possível abrir o Jupyter Notebook no VSCode com o tensorflow funcionando. Será preciso ativar o ambiente onde o tensorflow está
+instalado.
