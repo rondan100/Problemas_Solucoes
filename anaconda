@@ -6,3 +6,5 @@ continuou funcionando no Jupyter.
 
 Assim, poderá ser possível abrir o Jupyter Notebook no VSCode com o tensorflow funcionando. Será preciso ativar o ambiente onde o tensorflow está
 instalado.
+
+https://docs.anaconda.com/anaconda/navigator/tutorials/create-r-environment/
