@@ -1,0 +1,7 @@
+fonte: https://www.youtube.com/watch?v=9eyNNkxYvEA
+
+Problema: Application failed to start because it could not find or load the QT platform plugin “windows”
+
+- vai na pasta de F:\anaconda3\Lib\site-packages\PyQt5\Qt\plugins\platforms e copiar essa pasta
+- depois cola na pasta F:\anaconda3\Lib\site-packages\pyqt5_tools\Qt\bin
+- Após isso rodar o QtDesigner
