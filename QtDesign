@@ -1,0 +1,5 @@
+Problema: converter arquivo QtDesign .ui para arquivo python .py
+
+1) Ir na pasta do arquivo .ui
+2) abrir terminar cmd
+3) digitar pyside2-uic arquivo.ui -o arquivo.py
