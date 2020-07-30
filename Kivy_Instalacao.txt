@@ -57,6 +57,7 @@ pip install kivy
 pip install git+https://github.com/kivy/kivy.git@master
 
 4) Instalar o pacote kivyMD
+sudo apt install libglew-dev
 python3 -m pip install kivymd
 
 
