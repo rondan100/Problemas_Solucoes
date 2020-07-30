@@ -1,0 +1,6 @@
+1) Depois de instalar o Linux no Vbox a tela ficará em em 800x600
+  # instala os pacotes necessarios: python etc
+  - terminal: sudo apt upgrade
+  # Coloca em tela cheia
+  - sudo apt install virtualbox-guest-x11 -y 
+  
