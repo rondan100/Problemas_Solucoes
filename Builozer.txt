@@ -1,0 +1,11 @@
+Buildozer serve para gerar apk do kivy-phyton
+
+Intalação:
+pip install --user --upgrade buildozer
+
+se estiver no ambiente virtual:
+pip install --upgrade buildozer
+
+
+
+
