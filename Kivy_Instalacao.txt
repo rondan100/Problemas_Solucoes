@@ -64,4 +64,11 @@ sudo apt-get install openjdk-14-jdk
 sudo apt install libglew-dev
 python3 -m pip install kivymd
 
+5) Instalar um pacote necessário para buildozer
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install libstdc++6
+
+sudo apt-get install aidl 
+
 
