@@ -56,5 +56,7 @@ pip install kivy
 # For the development version of Kivy, use the following command instead
 pip install git+https://github.com/kivy/kivy.git@master
 
+4) Instalar o pacote kivyMD
+python3 -m pip install kivymd
 
 
