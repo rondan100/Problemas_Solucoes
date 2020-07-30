@@ -4,4 +4,7 @@ Ir no terminal da maquina virtual linux e colar:
 
 sudo apt install virtualbox-guest-additions-iso
 
+após isso:
+sudo adduser usuario vboxsf
+
 em seguida ja se pode compartilhar as pastas
