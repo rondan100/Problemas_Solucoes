@@ -69,11 +69,19 @@ sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install libstdc++6
 
-***sudo apt-get install aidl *** (INSTALA MAS O BUILDOZER NÃO ACHA A PASTA):
+6) ***sudo apt-get install aidl *** (INSTALA MAS O BUILDOZER NÃO ACHA A PASTA):
 # Check that aidl can be executed
 # build-tools folder not found /home/ronaldo/.buildozer/android/platform/android-sdk/build-tools
 # Search for Aidl
 # Aidl not found, please install it.
+
+6.1] Tentar
+sudo apt install google-android-build-tools-installer
+cd ~/.buildozer/android/platform/android-sdk-20
+mkdir -p build-tools/0
+ln -s /usr/bin/aidl ~/.buildozer/android/platform/android-sdk-20/build-tools/0/aidl
+
+
 
 
 
