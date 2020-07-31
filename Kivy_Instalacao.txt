@@ -77,9 +77,9 @@ sudo apt-get install libstdc++6
 
 6.1] Tentar
 sudo apt install google-android-build-tools-installer
-cd ~/.buildozer/android/platform/android-sdk-20
+cd ~/.buildozer/android/platform/android-sdk
 mkdir -p build-tools/0
-ln -s /usr/bin/aidl ~/.buildozer/android/platform/android-sdk-20/build-tools/0/aidl
+ln -s /usr/bin/aidl ~/.buildozer/android/platform/android-sdk/build-tools/0/aidl
 
 
 
