@@ -1,7 +1,7 @@
 ----------INSTALAÇÃO LINUX PARA KIVY PYTHON----------
 
 1) DISTRO ESCOLHIDA:
-  Xubuntu 18.04 32 bits
+  Xubuntu 18.04 32 bits deu problema e, portanto, optou-se pela versão Xubuntu 18.04 64 bits
   
 2) INSTALAR NO VBOX 
   -Criar novo, selecionar a pasta que ficará gravado, .vdi, dinamicamente alocado, 3gb de ram, 15gb de HD, instalar a iso
