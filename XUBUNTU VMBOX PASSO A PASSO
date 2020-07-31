@@ -117,3 +117,30 @@ git clone https://github.com/kivy/buildozer.git
 cd buildozer
 sudo python3 setup.py install
   
+6) INSTALAR SDK ANDROID MANAGER
+sudo apt install default-jdk
+java -version
+wget https://developer.android.com/studio/#downloads
+unzip sdk-tools-linux-3859397.zip
+export PATH=/home/ubuntu/tools:/home/ubuntu/tools/bin:$PATH
+sudo apt update
+
+7) aidl NÃO ENCONTRADO
+sudo apt install google-android-build-tools-installer
+cd ~/.buildozer/android/platform/android-sdk
+mkdir -p build-tools/0
+ln -s /usr/bin/aidl ~/.buildozer/android/platform/android-sdk/build-tools/0/aidl
+
+>># Aidl cannot be executed
+# 
+# You might have missed to install 32bits libs
+# Check http://buildozer.readthedocs.org/en/latest/installation.html
+#
+
+#INSTALAR ESSES PACOTES
+sudo apt-get install lib32z1
+#PACOTE 32BITS C++
+sudo apt-get install lib32stdc++6
+
+# ISSO DAQUI É OFICIAL DO SITE BUILDOZER. PODE RESOLVER. 
+~/.buildozer/android/platform/android-sdk/tools/bin/sdkmanager "build-tools;29.0.0"
