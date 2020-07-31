@@ -13,3 +13,107 @@
   # Coloca em tela cheia
   - sudo apt-get install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms -y  
   
+4) CONFIGURANDO KIVYMD E BUILDOZER
+
+# Install Python pip
+sudo apt-get install -y curl
+sudo apt-get install -y python3-distutils
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
+
+# Dependencies with SDL2
+# Install necessary system packages
+sudo apt-get install -y \
+    python3-pip \
+    build-essential \
+    git \
+    python3 \
+    python3-dev \
+    ffmpeg \
+    libsdl2-dev \
+    libsdl2-image-dev \
+    libsdl2-mixer-dev \
+    libsdl2-ttf-dev \
+    libportmidi-dev \
+    libswscale-dev \
+    libavformat-dev \
+    libavcodec-dev \
+    zlib1g-dev
+
+# Dependencies Kivy
+sudo pip3 install cython
+
+# Install gstreamer for audio, video (optional)
+sudo apt-get install -y \
+    libgstreamer1.0 \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-plugins-good
+
+# Install Kivy
+# sudo pip3 install kivy ## NÃO FUNIONA, ENTÃO USAR CODIGO ABAIXO:
+
+#Criar ambiente virtual
+python3 -m pip install --upgrade --user pip virtualenv setuptools
+
+# then create a virtualenv named "kivy_venv" in your home with:
+python3 -m virtualenv ~/kivy_venv
+
+# load the virtualenv
+source ~/kivy_venv/bin/activate
+
+# atualizar pip
+python -m pip install --upgrade pip
+
+# install the correct Cython version
+pip install Cython
+
+# IMPORTANTE - Instalar o kivy
+pip install kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple/
+
+#Instalar o pacote kivyMD
+# abrir o ambiente virtual
+source ~/kivy_venv/bin/activate
+
+# instalar o javac
+sudo apt-get install openjdk-14-jdk
+sudo apt install libglew-dev
+python3 -m pip install kivymd
+
+# PACOTES DA ARQUITETURA 32BITS PODE NÃO ESTAR ATIVADA
+dpkg --print-foreign-architectures
+#A saída deverá ser: i386. Se não, você não tem suporte multi-arch e precisa ativá-lo usando o comando:
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+
+# Dependencies Buildozer
+# libpangox-1.0-0:i386 FOI TIRADO DA LISTA 
+sudo apt install -y \
+    build-essential \
+    ccache \
+    git \
+    libncurses5:i386 \
+    libstdc++6:i386 \
+    libgtk2.0-0:i386 \
+    
+    libpangoxft-1.0-0:i386 \
+    libidn11:i386 \
+    python2.7 \
+    python2.7-dev \
+    openjdk-8-jdk \
+    unzip \
+    zlib1g-dev \
+    zlib1g:i386 \
+    libltdl-dev \
+    libffi-dev \
+    libssl-dev \
+    autoconf \
+    autotools-dev
+    cmake
+
+# Install Buildozer
+git clone https://github.com/kivy/buildozer.git
+cd buildozer
+sudo python3 setup.py install
+  
