@@ -1,0 +1,16 @@
+----------INSTALAÇÃO LINUX PARA KIVY PYTHON----------
+
+1) DISTRO ESCOLHIDA:
+  Xubuntu 18.04 32 bits
+  
+2) INSTALAR NO VBOX 
+  -Criar novo, selecionar a pasta que ficará gravado, .vdi, dinamicamente alocado, 3gb de ram, 15gb de HD, instalar a iso
+  
+3) Depois de instalar o Linux no Vbox a tela ficará em em 800x600
+  # instala os pacotes necessarios: python etc
+  - terminal: sudo apt upgrade
+  
+  # Coloca em tela cheia
+  - # dependencia de virtualbox-guest-x11: sudo apt install xserver-xorg-core
+  - sudo apt-get install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms -y  
+  
