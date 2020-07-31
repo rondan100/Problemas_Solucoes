@@ -1,0 +1,14 @@
+----------INSTALAÇÃO LINUX PARA KIVY PYTHON----------
+
+1) DISTRO ESCOLHIDA:
+  MANJARO 20.04 64 bits
+  
+2) INSTALAR NO VBOX 
+  -Criar novo, selecionar a pasta que ficará gravado, .vdi, dinamicamente alocado, 3gb de ram, 15gb de HD, instalar a iso
+  
+3) Depois de instalar o Linux no Vbox a tela ficará em em 800x600
+  # instala os pacotes necessarios
+  Instalador oficial do Manjaro ~900Mb
+  
+  # Coloca em tela cheia
+    - No próximo Vbox nativo: Dispositivos -> Inserir imagem iso -> vbox-guests.iso
