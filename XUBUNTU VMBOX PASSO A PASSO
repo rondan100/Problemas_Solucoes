@@ -1,7 +1,7 @@
 ----------INSTALAÇÃO LINUX PARA KIVY PYTHON----------
 
 1) DISTRO ESCOLHIDA:
-  Xubuntu 18.04 32 bits deu problema e, portanto, optou-se pela versão Xubuntu 18.04 64 bits
+  Xubuntu 20.04 64 bits
   
 2) INSTALAR NO VBOX 
   -Criar novo, selecionar a pasta que ficará gravado, .vdi, dinamicamente alocado, 3gb de ram, 15gb de HD, instalar a iso
@@ -11,6 +11,5 @@
   - terminal: sudo apt upgrade
   
   # Coloca em tela cheia
-  - # dependencia de virtualbox-guest-x11: sudo apt install xserver-xorg-core
   - sudo apt-get install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms -y  
   
