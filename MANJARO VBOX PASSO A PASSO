@@ -34,6 +34,9 @@
 8) ABRIR ANDROID STUDIO
   - iNSTALAR OS PACOTES RECOMENDADOS PELO SOFTWARE
 
+9) INSTALAR KIVY E KIVYMD
+ - sudo pacman -Syu python-kivy
+ - python3 -m pip install kivymd
 
 
 
