@@ -26,19 +26,13 @@
 - sudo pacman -S jdk8-openjdk
 
 # git e outras coisas não precisa pois ja deveria ter instalado no passo 3 na parte das atualizações
-
-7) INSTALAR ANDROID SDK MANAGER
- 1- INSTALAR SNAPD : sudo pacman -S snapd
- 2- sudo systemctl enable --now snapd.socket
- 3- sudo ln -s /var/lib/snapd/snap /snap
- 4- sudo snap install androidsdk
- 5- androidsdk --list -> show available packages
  
-8) HABILITAR AUR
+7) HABILITAR AUR
  - Ir em adicionar/remover programas e ir em preferências, depois ir em AUR e habilitar.
  - Pesquisar por android-studio e compilar.
  
-
+8) ABRIR ANDROID STUDIO
+  - iNSTALAR OS PACOTES RECOMENDADOS PELO SOFTWARE
 
 
 
