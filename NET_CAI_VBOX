@@ -1,0 +1,3 @@
+Problema: A net passou a cair e não voltar depois de usar Virtual Machine Box
+
+Solução: Ir em Gerenciador de Dispositivos, mostrar itens ocultos e desabilitar o adaptador de rede do Vbox
