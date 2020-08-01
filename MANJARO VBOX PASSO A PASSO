@@ -38,6 +38,6 @@
  - sudo pacman -Syu python-kivy
  - python3 -m pip install kivymd
 
-
+10) ABRIR ANDROID STUDIO -> SETTINGS -> ANDROID SDK -> SDK TOOLS : HABILITAR TODAS AS OPÇÕES: INSTALAR
 
 
