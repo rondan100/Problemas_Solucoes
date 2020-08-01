@@ -50,4 +50,8 @@
   # (int) Target Android API, should be as high as possible.
   android.api = 30
   
-  # a linha acima vai ter originalmente um jogo da velha(#); retirar no comando "android.api = 30". Salvar e rodar o buildozer.
+  # a linha acima vai ter originalmente um jogo da velha(#); retirar no comando "android.api = 30". Salvar e rodar.
+  
+12) [DEBUG]:   	Warning: License for package Android SDK Platform 30 not accepted.
+  - Se rodar vai dar erro de licensa.
+  - COPIAR A PASTA /home/ronaldo/Android/Sdk/licenses/ E COLAR EM /home/ronaldo/.buildozer/android/platform/android-sdk/
