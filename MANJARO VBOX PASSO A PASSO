@@ -40,4 +40,14 @@
 
 10) ABRIR ANDROID STUDIO -> SETTINGS -> ANDROID SDK -> SDK TOOLS : HABILITAR TODAS AS OPÇÕES: INSTALAR
 
-
+11) ********** AIDL NOT INSTALED ************** (IMPORTANTÍSSIMO)
+  # Essa é a pasta onde se encontra o aidl
+  - COPIAR A PASTA /home/ronaldo/Android/Sdk/build-tools/ E COLAR EM /home/ronaldo/.buildozer/android/platform/android-sdk/
+  # Colocar a ultima versão do api.. nesse caso android-30
+  - COPIAR A PASTA /home/ronaldo/Android/Sdk/platforms/android-30/ E COLAR EM /home/ronaldo/.buildozer/android/platform/android/platform/
+  - MODIFICAR O ARQUIVO buildozer.spec na linha:
+  
+  # (int) Target Android API, should be as high as possible.
+  android.api = 30
+  
+  # a linha acima vai ter originalmente um jogo da velha(#); retirar no comando "android.api = 30". Salvar e rodar o buildozer.
