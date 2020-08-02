@@ -55,3 +55,11 @@
 12) [DEBUG]:   	Warning: License for package Android SDK Platform 30 not accepted.
   - Se rodar vai dar erro de licensa.
   - COPIAR A PASTA /home/ronaldo/Android/Sdk/licenses/ E COLAR EM /home/ronaldo/.buildozer/android/platform/android-sdk/
+  
+13) Instalar dpkg e lld
+  - sudo pacman -S dpkg 
+  - sudo pacman -S lld
+  
+14) FIM - BAIXAR KIVYMD DO GITHUB
+  - USAR A DEMO BAIXADA COMO BASE POIS O ARQUIVO BUILDOZER.SPEC JÁ ESTÁ CONFIGURADO E OK PRA COMPILAR E FUNCIONAR NO ANDROID
+
