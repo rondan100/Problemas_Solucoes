@@ -1,0 +1,7 @@
+PROBLEMA: Depois de compilar, o app fecha imediatamente ao abrir.
+
+SOLUÇÃO: No arquivo buildozer.spec, adicionar esses requerimentos para o aplicativo reconhecer o comando requests.
+
+# (list) Application requirements
+# comma separated e.g. requirements = sqlite3,kivy
+requirements = python3,kivy==2.0.0rc3,https://github.com/kivymd/KivyMD/archive/master.zip,sdl2_ttf==2.0.15, requests, urllib3, chardet,certifi, idna
