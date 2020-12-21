@@ -12,7 +12,7 @@
 ## 10) Project HomePage ##
 ## 11) Repos - Files - Import repository - Clone URL - Requires Autentication - Import ##
 ## 12) Pipelines - New pipeline - GitHub YAML - Select Repository - Run ##
-    12.1) If error npm install: add "build": 
+    12.1) If error npm install: add "build" in package.json: 
      "scripts": {
       "dev": "nodemon src/index.js",
       "start": "node src/index.js",
