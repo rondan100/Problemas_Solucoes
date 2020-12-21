@@ -20,4 +20,4 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     }
 
-## 10) Browse Application endpoint ##
+## 13) Browse Application endpoint ##
